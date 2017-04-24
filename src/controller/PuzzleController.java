@@ -43,21 +43,6 @@ public class PuzzleController {
     public void setMain(Main main) {
         this.main = main;
     }
-    /*
-    private void saveTimes(File file){
-        main.saveTimeToFile(file);
-    }
-    private void readTimes(File file){
-        main.loadTimeFromFile(file);
-    }
-    public void setFile(File file){
-        this.file = file;
-
-        if(file != null) {
-            loadTimeFromFile();
-        }
-    }
-    */
     private Rectangle firstChosen;
     private Rectangle secondChosen;
 
